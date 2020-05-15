@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 EXCLUDE=lowlatency
-VERSION="{1:-5.6}"
+VERSION="${1:-5.6}"
 URL="https://kernel.ubuntu.com/~kernel-ppa/mainline/v$VERSION"
 
 curl -s "$URL/" \
